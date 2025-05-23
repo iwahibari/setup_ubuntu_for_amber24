@@ -7,7 +7,7 @@ sudo apt -y upgrade
 sudo apt -y autoremove
 
 sudo apt -y install gcc
-sudo -y apt install gcc-12 gcc-12-base libgcc-12-dev
+sudo apt -y install gcc-12 gcc-12-base libgcc-12-dev
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-13 10
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 20
 0 | sudo update-alternatives --config gcc
