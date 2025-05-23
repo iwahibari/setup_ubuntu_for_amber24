@@ -16,6 +16,7 @@ sudo apt -y install make
 sudo apt -y install cmake
 sudo apt -y install vim 
 sudo apt -y install openssh-server
+sudo apt -y install csh
 
 # 既存グラフィックドライバの無効化
 sudo sh -c "cat > /etc/modprobe.d/blacklist-nouveau.conf" << EOF
