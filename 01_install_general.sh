@@ -81,3 +81,6 @@ if [ -e /etc/modprobe.d/blacklist-nouveau.conf ]; then
 else
 	echo -e "\e[31m[NG] nouveauが無効化されていません\e[m"
 fi
+
+# ディレクトリ名を英語表記にする
+env LANGUAGE=C LC_MESSAGES=C xdg-user-dirs-gtk-update
